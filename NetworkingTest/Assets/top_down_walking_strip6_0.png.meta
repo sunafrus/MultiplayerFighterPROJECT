@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 131d5c5f75e138a4393e5b0a3d839d95
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: top_down_walking_strip6_0_0
+    21300002: top_down_walking_strip6_0_1
+    21300004: top_down_walking_strip6_0_2
+    21300006: top_down_walking_strip6_0_3
+    21300008: top_down_walking_strip6_0_4
+    21300010: top_down_walking_strip6_0_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: top_down_walking_strip6_0_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_down_walking_strip6_0_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_down_walking_strip6_0_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_down_walking_strip6_0_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_down_walking_strip6_0_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_down_walking_strip6_0_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
