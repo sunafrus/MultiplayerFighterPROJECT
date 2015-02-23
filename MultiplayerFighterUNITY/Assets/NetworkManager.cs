@@ -45,25 +45,34 @@ public class NetworkManager : MonoBehaviour
 
 	private void RefreshHostList()
 	{
-		MasterServer.RequestHostList(typeName);
+		MasterServer.RequestHostList (typeName);
 	}
 	
-	void OnMasterServerEvent(MasterServerEvent msEvent)
+	void OnMasterServerEvent (MasterServerEvent msEvent)
 	{
 		if (msEvent == MasterServerEvent.HostListReceived)
 			hostList = MasterServer.PollHostList();
 	}
 
-	private void JoinServer(HostData hostData)
+	private void JoinServer (HostData hostData)
 	{
 		Network.Connect(hostData);
 	}
 	
-	void OnConnectedToServer()
+	void OnConnectedToServer ()
 	{
 		Debug.Log("Connected to Server");
 		SpawnPlayer();
 	}
+
+
+	void OnPlayerDisconnected (NetworkPlayer player)
+	{
+		Debug.Log(player + " has disconnected from the server");
+		Network.RemoveRPCs(player);
+		Network.DestroyPlayerObjects(player);
+	}
+
 
 	private void SpawnPlayer()
 	{
